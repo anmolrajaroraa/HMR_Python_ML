@@ -1,0 +1,9 @@
+File Handling
+
+Modes - read, write, append - r, w, a
+
+For binary files - rb, wb, ab
+
+1. Open file - open()
+2. Work on file
+3. Close file - close()

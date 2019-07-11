@@ -36,7 +36,7 @@ def knn(x,train,k=5):
     return_counts=True)
     label = count[0][np.argmax(count[1])]
     #print(nearestNeighbours)
-    return round(label)
+    return int(label)
 
 while True:
     ret, image = capture.read()
